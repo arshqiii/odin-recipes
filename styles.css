@@ -8,14 +8,26 @@ body{
     background-color: rgb(233, 196, 115);
 }
 
-h1, p, ul {
+h1, h2, p {
     text-align: center;
+}
+
+fieldset{
+    border: 1px solid black;
+    width: 600px;
+    margin: auto;
 }
 
 #menu {
     margin: 0;
     padding: 0;
     text-align: center; 
+}
+
+.center{
+    justify-content: center;  
+    align-items: center;  
+    display: flex;
 }
 
 a {
@@ -27,9 +39,17 @@ a {
 img {
     display: block;
     margin: 10px auto;
+    border: 2px solid black;
     border-radius: 20px;
 }
 
 footer{
     background-color: chocolate;
+}
+
+#return{
+    font-size: large;
+    border: 2px solid black;
+    border-radius: 20px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
