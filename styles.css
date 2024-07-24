@@ -13,9 +13,10 @@ h1, h2, p {
 }
 
 fieldset{
-    border: 1px solid black;
-    width: 600px;
-    margin: auto;
+    display: block;
+    border: 5px solid black;
+    width: 100vh;
+    margin: 10px auto;
 }
 
 #menu {
