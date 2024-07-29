@@ -17,7 +17,7 @@ hr{
     border-radius: 5px;
 }
 
-.menu-items .desc{
+.ingredients .desc .instructions{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -26,7 +26,7 @@ hr{
     padding: 0;
 }
 
-.menu-items .desc fieldset{
+.ingredients .desc .instructions fieldset{
     flex: 1;
     flex-wrap: wrap;
 }
@@ -59,31 +59,39 @@ fieldset{
     flex: 1 1 auto
 }
 
-.center{
-    justify-content: center;  
-    align-items: center;  
-    display: flex;
-}
-
 a {
     text-decoration: none; 
     color: black; 
     margin: 20px 0;
+    display: inline-block;
 }
 
 img {
     display: block;
-    margin: 10px auto;
+    margin-left: auto;
+    margin-right: auto;
     border: 2px solid black;
     border-radius: 20px;
 }
 
 footer{
+    display: block;
     left: 0;
     bottom: 0;
     width: 100%;
     background-color: chocolate;
+    margin-top: 10px;
     text-align: center;
+}
+
+.center{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    justify-content: center;  
+    align-items: center;  
+    display: flex;
+    flex-direction: column;
 }
 
 #return{
